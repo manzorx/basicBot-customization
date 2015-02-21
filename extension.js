@@ -58,7 +58,7 @@
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupEmoji: true, // true or false
         maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 60,
@@ -104,8 +104,8 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/manzorx/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/manzorx/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
