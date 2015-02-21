@@ -53,14 +53,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "4PNBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         lockdownEnabled: false,
@@ -97,8 +97,8 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
-        website: null,
+        youtubeLink: "https://www.youtube.com/user/4PlayerPodcast/",
+        website: "http://4playernetwork.com/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
